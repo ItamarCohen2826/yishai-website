@@ -1,38 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap');
 .App {
   text-align: center;
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+  color: white !important;
+  z-index: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: white !important;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+input {
+  font-size: 20px;
+}
+
+
+
+.converter input {
+  width: 100px;
+  height: 45px;
+  background-color: rgb(233, 219, 194);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.converter button {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  /* background-color: rgb(216, 179, 109); */
+  background:#0066A2;
+  text-shadow:none;
+  border-style:outset;
+  border-color:#0066A2;
+  height:50px;
+  width:100px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.converter button:hover {
+  background:#7e94a0;
+  border-color:#7e94a0;
+}
+
+
+
+.stars, .twinkling, .clouds {
+	position:absolute;
+	display:block;
+	top:0; bottom:0;
+	left:0; right:0;
+	width:100%; height:100%;
+}
+
+.stars {
+	z-index: 0;
+	background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+}
+
+.twinkling{
+	z-index: 1;
+	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+	animation: move-twink-back 200s linear infinite;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  font-size: 48px;
+}
+
+.about-content {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
   color: white;
+  display: block;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.sandy-content {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hackathon-content {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+
+.copyright-shifter {
+  z-index: 2;
+  color: white;
+  font-style: italic;
+  opacity: 0.5;
+  position: relative;
+}
+
+.copyright {
+  bottom: 0;
+  float: bottom;
+}
+
+.team-pic {
+  width: 40%;
+  height: 40%; 
+}
+
+.sandy-pic {
+  width: 25%;
+  height: 25%; 
+  float: left;
+}
+
+.sandy-tinker {
+  width: 30%;
+  height: 30%; 
+  float: right;
+}
+
+.container {
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  display: inline-flex;
+  
+}
+.content-tab {
+  /* background-color: rgba(13, 52, 59, 0.75); */
+  /* background-image: (url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/space-stars-texture-sololos.jpg')); */
+  padding: 14px 16px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  float: right;
+  display: block;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#1e2627), to(#454545)); */
+}
+
+
+.logo-shifter {
+  z-index: 3;
+  border: 1px solid white;
+  display: flex;
+  float: left;
+  align-items: left;
+}
+
+.logo-shifter img {
+  z-index: 3;
+  margin-left: 200px;
+}
+
+.container h1 {
+  font-weight: bold;
+}
+
+
+.content-shifter {
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  align-content: center;
+}
+
+.calculator-redirector {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.au-output {
+  z-index: 2;
+  text-align: center;
+  display: inline-flex;
+}
+
+h1 {
+  z-index: 2;
+  text-align: center;
+  display: inline-flex;
+}
+
+
+
+.content-tab:hover {
+  background-color: rgb(60, 69, 71);
+  border-bottom: 1px solid white;
+}
+
+.active-tab {
+  border-bottom: 1px solid white;
+}
+
+
+.content { 
+  z-index: 2;
+  text-align: center;
+  display: inline-flex;
+  float: none;
+  font-size: 60px;
+  font-weight: 1000 !important;
+}
+
+.au-container {
+  align-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block; 
+  margin: auto;
+}
+
+.home-content {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+.riddle-content {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+@keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+  }  
+
+  .menubar {
+    align-items: center;
+    align-content: center;
+    position: sticky;
+    display: inline-block;
+    margin: auto;
+    font-size: 15px !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content-tab {
+    float:none;
+  }
+
+  .logo-shifter img {
+    visibility: hidden;
+  }
+
+  .content {
+    font-size: 40px;
+  }
+
+  .calculator-redirector {
+    font-size: 20px;
+  }
+
+}
+ 
+@media screen and (max-width:1500px) {
+  .container {
+    display: block;
+    align-items: right;
+    position: relative;
+  }  
+  
+  .logo-shifter img {
+    margin-left: 10px;
   }
 }
+ 
