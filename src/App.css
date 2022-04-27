@@ -38,7 +38,7 @@ input {
 
 .converter button {
   font-size: 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* background-color: rgb(216, 179, 109); */
   background:#0066A2;
   text-shadow:none;
@@ -55,24 +55,32 @@ input {
   border-color:#7e94a0;
 }
 
+.winner-title {
+  z-index: 2;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
 
+}
 
 .stars, .twinkling, .clouds {
 	position:absolute;
 	display:block;
 	top:0; bottom:0;
 	left:0; right:0;
-	width:100%; height:100%;
+	width:100%; height:150%;
 }
 
 .stars {
 	z-index: 0;
-	background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+	background: #000 url('images/stars.png') repeat top center;
 }
 
 .twinkling{
 	z-index: 1;
-	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+	background:transparent url('images/twinkling.png') repeat top center;
 	animation: move-twink-back 200s linear infinite;
 }
 
@@ -123,6 +131,11 @@ input {
 }
 
 .team-pic {
+  width: 40%;
+  height: 40%; 
+}
+
+.us {
   width: 40%;
   height: 40%; 
 }
@@ -190,10 +203,36 @@ input {
   font-size: 30px;
 }
 
+.firstPlace-pic {
+  border-radius: 10px;
+  border: solid white 2px;
+}
+
+.firstPlaceTeam-pic {
+  border-radius: 10px;
+  border: solid white 2px;
+  margin-left: 20px;
+}
+
+.calculator-redirector:hover {
+  /* border: solid white 2px; */
+  background-color: white;
+  color: black !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
 .au-output {
   z-index: 2;
   text-align: center;
   display: inline-flex;
+}
+
+.answer {
+  font-family: 'Open Sans', sans-serif;
+  border: solid white 2px;
+  border-radius: 2px;
 }
 
 h1 {
@@ -213,6 +252,18 @@ h1 {
   border-bottom: 1px solid white;
 }
 
+.contact-details:hover {
+  background-color: white;
+  color: black !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.contact-details {
+  font-weight: 500;
+  font-size: 30px;
+}
 
 .content { 
   z-index: 2;
@@ -249,17 +300,40 @@ h1 {
   position: relative;
 }
 
+.checker {
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: rgb(216, 179, 109); */
+  background:#0066A2;
+  text-shadow:none;
+  border-style:outset;
+  border-color:#0066A2;
+  height:50px;
+  width:100px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#riddle-output {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+}
+
 @keyframes move-twink-back {
 	from {background-position:0 0;}
 	to {background-position:-10000px 5000px;}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .container {
     align-items: center;
     position: relative;
     display: inline-block;
     font-size: 20px;
+    width: 50%;
   }  
 
   .menubar {
@@ -287,9 +361,40 @@ h1 {
     font-size: 20px;
   }
 
+  .content-shifter h1 {
+    font-size: 30px !important;
+  }
+
+  .content-shifter h2 {
+    font-size: 20px !important;
+  }
+
+  .stars {
+    z-index: 0;
+    height: 600%;
+    width: 100%;
+    background: #000 url('images/stars.png') repeat top center;
+  }
+  
+  .twinkling{
+    z-index: 1;
+    background:transparent url('images/twinkling.png') repeat top center;
+    animation: move-twink-back 200s linear infinite;
+    height: 600%;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
 }
  
 @media screen and (max-width:1500px) {
+html {
+  background-color: #000;
+}
+
   .container {
     display: block;
     align-items: right;

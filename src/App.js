@@ -81,7 +81,7 @@ const MenuBar = () => {
             className={getLinkClassNames}
             to="/riddles"
           >
-            חידות יומיות
+            חידות שבועיות
           </NavLink>
           <NavLink
             id="sandy"
@@ -105,7 +105,7 @@ const MenuBar = () => {
             צרו קשר
           </NavLink>
         </div>
-
+        
       </div>
     </header>
   );

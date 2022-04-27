@@ -1,4 +1,5 @@
 import { React, Component } from 'react';
+import dronePic from '../images/dronePic.jpeg';
 // import '../App.css';
 class Home extends Component {
     // eslint-disable-next-line
@@ -36,8 +37,9 @@ class Home extends Component {
                     <br />
                     <strong>.נבחרת מרכז יש״י</strong> 
                 </p>
+                <img src={dronePic} alt="us" className="us"/>
                 <div className="copyright-shifter">
-                    <h3 className="copyright">© Itamar Cohen and Merkaz Yishai 2021</h3>
+                    <h3 className="copyright">© Merkaz Yishai 2021</h3>
                 </div>
             </div>
         );

@@ -19,10 +19,13 @@ class Contact extends Component {
             <div className="content-shifter">
                 <br />
                 <h1 className="content">!צרו קשר</h1>
-                <h2 className="contact-details">space.project.yishai@gmail.com</h2>
-                <h2 className="contact-details">@space_project_yshay :באינסטגרם</h2>
-                <h2 className="contact-details">Mercaz Yshay :בפייסבוק</h2>
-                <h2 className="contact-details"> ביוטיוב: אולימפיאדת החלל מרכז יש״י</h2>
+                <h2 className="check">space.project.yishai@gmail.com</h2>
+                <a className="contact-details" target="_blank" rel="noreferrer" href="https://www.instagram.com/space_project_yshay/"> אינסטגרם</a>
+                <br />
+                <a className="contact-details" target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100077308665402"> פייסבוק</a>
+                <br />
+                <a className="contact-details" target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCdUoTa3jG6h9SidnQp0ZLUw">יוטיוב</a>
+                <br />
 
             </div>
         );
