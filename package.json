@@ -2,7 +2,7 @@
   "name": "yishai-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spaceyishay.com",
+  "homepage": "https://spaceyishay.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
