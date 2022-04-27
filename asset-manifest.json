@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4150e85d.chunk.css",
+    "main.js": "/static/js/main.b100be64.chunk.js",
+    "main.js.map": "/static/js/main.b100be64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7513ba4c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7513ba4c.js.map",
+    "static/js/2.a5858988.chunk.js": "/static/js/2.a5858988.chunk.js",
+    "static/js/2.a5858988.chunk.js.map": "/static/js/2.a5858988.chunk.js.map",
+    "static/js/3.629fe869.chunk.js": "/static/js/3.629fe869.chunk.js",
+    "static/js/3.629fe869.chunk.js.map": "/static/js/3.629fe869.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4150e85d.chunk.css.map": "/static/css/main.4150e85d.chunk.css.map",
+    "static/js/2.a5858988.chunk.js.LICENSE.txt": "/static/js/2.a5858988.chunk.js.LICENSE.txt",
+    "static/media/dronePic.4d201575.jpeg": "/static/media/dronePic.4d201575.jpeg",
+    "static/media/firstPlace.b2b61e0b.jpeg": "/static/media/firstPlace.b2b61e0b.jpeg",
+    "static/media/firstPlaceTeam.41e868c1.png": "/static/media/firstPlaceTeam.41e868c1.png",
+    "static/media/logo.d4134222.png": "/static/media/logo.d4134222.png",
+    "static/media/sandy.4d766dc3.jpeg": "/static/media/sandy.4d766dc3.jpeg",
+    "static/media/sandyTinker.4352fbbd.jpeg": "/static/media/sandyTinker.4352fbbd.jpeg",
+    "static/media/App.css": "/static/media/stars.90c266f7.png",
+    "static/media/team.c79b74c0.jpeg": "/static/media/team.c79b74c0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7513ba4c.js",
+    "static/js/2.a5858988.chunk.js",
+    "static/css/main.4150e85d.chunk.css",
+    "static/js/main.b100be64.chunk.js"
+  ]
+}
