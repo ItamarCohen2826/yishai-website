@@ -8,6 +8,7 @@ import LastYear from './components/LastYear';
 import SandY from './components/SandY';
 import Contact from './components/Contact';
 import Hackathon from './components/Hackathon';
+import Lom from './components/Lom';
 import AU from './components/calculators/AU';
 import KM from './components/calculators/KM';
 import LY from './components/calculators/LY';
@@ -30,6 +31,7 @@ const App = () => {
     { path: "kmlycalc", element: <LYtoKM   /> },
     { path: "hackathon", element: <Hackathon /> },
     { path: "contact", element: <Contact /> },
+    { path: "lom", element: <Lom /> },
     // ...
   ]);
   return routes;
@@ -103,6 +105,13 @@ const MenuBar = () => {
           to="/contact"
           >
             צרו קשר
+          </NavLink>
+          <NavLink
+            id="lom"
+            className={getLinkClassNames}
+            to="/lom"
+          >
+            L.O.M
           </NavLink>
         </div>
         
