@@ -25,7 +25,10 @@ input {
   font-size: 20px;
 }
 
-
+img {
+  border-radius: 10px;
+  border: solid white 2px;
+}
 
 .converter input {
   width: 100px;
@@ -99,6 +102,23 @@ input {
 }
 
 .sandy-content {
+  z-index: 2;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+
+  
+.lom-img{
+    width: 50%;
+    height: 50%;
+    border: none !important;
+  }
+
+.lom-content {
   z-index: 2;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
@@ -183,6 +203,7 @@ input {
 .logo-shifter img {
   z-index: 3;
   margin-left: 200px;
+  border: none !important;
 }
 
 .container h1 {
@@ -331,7 +352,7 @@ h1 {
   .container {
     align-items: center;
     position: relative;
-    display: inline-block;
+    display: block;
     font-size: 20px;
     width: 50%;
   }  
