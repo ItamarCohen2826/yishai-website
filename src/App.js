@@ -50,8 +50,8 @@ const MenuBar = () => {
 
   return (
     <header className='App-header'>
-      <div className="logo-container">
-        <div className="logo-shifter">
+      <div className="logo-container" style={{float: "right"}}>
+        <div className="logo-shifter" style={{float: "right"}}>
           <img alt="" height={75} width={75} src={logo} />
         </div>
       </div>
