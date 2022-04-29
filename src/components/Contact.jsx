@@ -18,7 +18,7 @@ class Contact extends Component {
         return(
             <div className="content-shifter">
                 <br />
-                <h1 className="content">!צרו קשר</h1>
+                <h1 className="content">צרו קשר!</h1>
                 <h2 className="check">space.project.yishai@gmail.com</h2>
                 <a className="contact-details" target="_blank" rel="noreferrer" href="https://www.instagram.com/space_project_yshay/"> אינסטגרם</a>
                 <br />
