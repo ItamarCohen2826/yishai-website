@@ -57,7 +57,7 @@ export default class RiddleGenerator extends Component {
 
               {/* <button id="generator" onClick={this.GenerateRiddle}>Generate a riddle!</button> */}
               <input type="text" id="answer" className="answer" onSubmit={function(e) {e.preventDefault()}} required pattern="[a-zא-ת]{50}"></input>
-              <button type="submit" id="checker" className="checker" onClick={this.CheckAnswer}>!בדיקת תשובה</button>
+              <button type="submit" id="checker" className="checker" onClick={this.CheckAnswer}>בדיקת תשובה!</button>
               <h2 hidden={true} id="riddle-output">.</h2>
             </div>
           )

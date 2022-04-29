@@ -21,7 +21,7 @@ class Riddles extends Component {
         return(
             <div className="content-shifter">
                 <br />
-                <h1 className="content">!חידות שבועיות</h1>
+                <h1 className="content">חידות שבועיות!</h1>
                 <div className="riddle-content">
                     <RiddleGenerator />
                 </div>
